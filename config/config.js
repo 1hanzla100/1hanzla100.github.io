@@ -1,5 +1,8 @@
 import profile from "./profile.png";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+	faGithub,
+	faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export const navigation = {
@@ -34,36 +37,40 @@ export const about = {
 
 export const work = {
 	title: "What I do",
+	isIconify: true,
 	cards: [
 		{
-			title: "Web Development",
+			title: "Full Stack Development",
 			description:
-				"I create full stack SPAs, PWAs & SSR websites using Django & React.js.",
-			icons: null,
-		},
-		{
-			title: "API Development",
-			description:
-				"I create RESTful APIs using Django & Django REST Framework.",
-			icons: null,
-		},
-		{
-			title: "GitOps",
-			description:
-				"I create CI/CD pipelines using Github Actions for testing & deployments.",
-			icons: null,
+				"I create full stack SPAs, PWAs & SSR websites, REST APIs, Websockets using Django & React.js.",
+			icons: [
+				"logos:python",
+				"vscode-icons:file-type-django",
+				"logos:react",
+				"logos:typescript-icon",
+			],
 		},
 		{
 			title: "Cloud Infra-Architecture",
 			description:
-				"I configure Cloud Servers like AWS etc. and deploy applications on them.",
-			icons: null,
+				"I create CI/CD pipelines using Github Actions for testing & deploy on Cloud Servers.",
+			icons: [
+				"logos:aws",
+				"logos:github-icon",
+				"logos:docker-icon",
+				"logos:heroku-icon",
+			],
 		},
 		{
 			title: "Blockchain Development",
 			description:
-				"I create Smart Contracts & Dapps using Solidity, React.js & Python.",
-			icons: null,
+				"I create Smart Contracts & Dapps using Solidity & React.js and unit test Smart Contracts with Python Brownie.",
+			icons: [
+				"logos:ethereum",
+				"logos:solidity",
+				"logos:web3js",
+				"logos:python",
+			],
 		},
 	],
 };

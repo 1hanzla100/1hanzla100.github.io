@@ -27,6 +27,7 @@ export default function Home() {
       <Skills
         title={work.title}
         cards={work.cards}
+        isIconify={work.isIconify}
       />
       <Projects
         title={projects.title}
