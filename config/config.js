@@ -31,7 +31,8 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js, DevOps Tools, Cloud Technologies and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm a passionate Full Stack web developer having an experience of developing Full Stack web applications with Python, Django, React.js, Cloud Technologies and Blockchain development on Ethereum. I have a strong interest in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+		"I am specialized in developing Full Stack Websites, Backend APIs and Blockchain Projects."
 	],
 };
 
