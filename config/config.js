@@ -1,8 +1,5 @@
 import profile from "./profile.png";
-import {
-	faGithub,
-	faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export const navigation = {
@@ -12,7 +9,7 @@ export const navigation = {
 export const intro = {
 	title: "Hey, I'm Hanzla",
 	description:
-		"Full Stack Django, React.js Developer & Blockchain Developer.",
+		"Full Stack Developer | Python | Django | React.js - Crafting Seamless Tech Solutions for Businesses.",
 	image: profile.src,
 	buttons: [
 		{
@@ -20,11 +17,11 @@ export const intro = {
 			link: "#contact",
 			isPrimary: true,
 		},
-		{
-			title: "Resume",
-			link: "https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
-			isPrimary: false,
-		},
+		// {
+		// 	title: "Resume",
+		// 	link: "https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+		// 	isPrimary: false,
+		// },
 	],
 };
 
@@ -32,7 +29,7 @@ export const about = {
 	title: "Who I am",
 	description: [
 		"I'm a passionate Full Stack web developer having an experience of developing Full Stack web applications with Python, Django, React.js, Cloud Technologies and Blockchain development on Ethereum. I have a strong interest in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-		"I am specialized in developing Full Stack Websites, Backend APIs and Blockchain Projects."
+		"I am specialized in developing Full Stack Websites, Backend APIs and Blockchain Projects.",
 	],
 };
 
@@ -160,7 +157,7 @@ export const contact = {
 export const SEO = {
 	title: "Hanzla Tauqeer",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
+		"Full Stack Developer | Python | Django | React.js - Crafting Seamless Tech Solutions for Businesses.",
 	author: "Hanzla Tauqeer",
 	image: profile.src,
 	url: "https://1hanzla100.github.io",
@@ -174,3 +171,4 @@ export const SEO = {
 		"Hanzla Tauqeer Portfolio",
 	],
 };
+
