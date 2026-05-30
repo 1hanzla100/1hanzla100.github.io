@@ -3,7 +3,7 @@ export const experience = [
 		company: "ClarityInAI",
 		role: "Senior Software Engineer",
 		date: "Aug 2025 - Present",
-		companyLogo: "/img/icons/common/meganos.svg",
+		companyLogo: "/img/icons/common/clarityinai.svg",
 		desc: "Built backend services, healthcare data workflows, and ETL pipelines for multi-tenant systems.",
 		descBullets: [
 			"Developed Node.js, Python, and FastAPI services with refactoring and performance work to improve API reliability.",
@@ -17,7 +17,7 @@ export const experience = [
 		company: "Product Genius",
 		role: "Software Engineer",
 		date: "Jul 2024 - Aug 2025",
-		companyLogo: "/img/icons/common/duseca_software_logo.svg",
+		companyLogo: "/img/icons/common/product_genius.svg",
 		desc: "Built high-throughput data pipelines, FastAPI services, and AWS infrastructure for large-scale event processing.",
 		descBullets: [
 			"Architected ETL processing 1B+ events annually and millions of daily records.",
@@ -30,7 +30,7 @@ export const experience = [
 		company: "Duseca Software",
 		role: "Full Stack Developer",
 		date: "Jan 2022 - Aug 2025",
-		companyLogo: "/img/icons/common/zrtech.svg",
+		companyLogo: "/img/icons/common/duseca_software.svg",
 		desc: "Delivered scalable backend and frontend features for web and mobile applications.",
 		descBullets: [
 			"Built Django and Django REST Framework APIs for web and mobile products.",
@@ -44,7 +44,7 @@ export const experience = [
 		company: "Meganos Software",
 		role: "Full Stack Developer",
 		date: "Aug 2022 - Jul 2024",
-		companyLogo: "/img/icons/common/zrtech.svg",
+		companyLogo: "/img/icons/common/meganos.svg",
 		desc: "Built APIs, real-time systems, tested services, and production deployments across backend and frontend work.",
 		descBullets: [
 			"Designed REST APIs and WebSocket communication for dynamic client-server features.",
@@ -58,7 +58,7 @@ export const experience = [
 		company: "Bleed AI",
 		role: "Full Stack Developer",
 		date: "Sept 2021 - Oct 2021",
-		companyLogo: "/img/icons/common/bleedAI.svg",
+		companyLogo: "/img/icons/common/bleed_ai.svg",
 		desc: "Integrated computer vision AI workflows into a real-time Django application.",
 		descBullets: [
 			"Connected computer vision AI with Django Channels and WebSockets for YouTube URL processing.",

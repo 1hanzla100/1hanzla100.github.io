@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { existsSync } from "node:fs";
 
 import nextConfig from "../next.config";
 import { education } from "../data/education";
@@ -207,5 +208,26 @@ describe("Plan.md portfolio requirements", () => {
     expect(capabilityText).toContain("Apache Superset");
     expect(capabilityText).toContain("TDD");
     expect(capabilityText).toContain("Agile/Scrum");
+  });
+
+  it("uses matching company-specific logos for experience cards", () => {
+    const expectedLogos = {
+      ClarityInAI: "/img/icons/common/clarityinai.svg",
+      "Product Genius": "/img/icons/common/product_genius.svg",
+      "Duseca Software": "/img/icons/common/duseca_software.svg",
+      "Meganos Software": "/img/icons/common/meganos.svg",
+      "Bleed AI": "/img/icons/common/bleed_ai.svg",
+    };
+
+    for (const item of experience) {
+      expect(item.companyLogo).toBe(
+        expectedLogos[item.company as keyof typeof expectedLogos],
+      );
+      expect(
+        existsSync(
+          new URL(`../public${item.companyLogo}`, import.meta.url),
+        ),
+      ).toBe(true);
+    }
   });
 });

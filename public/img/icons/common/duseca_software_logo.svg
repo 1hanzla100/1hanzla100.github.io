@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Duseca Software">
-  <rect width="80" height="80" fill="#111111"/>
-  <rect x="8" y="8" width="64" height="64" fill="none" stroke="#FF3D00" stroke-width="2"/>
-  <path d="M22 20h17c13 0 22 8 22 20s-9 20-22 20H22zm10 9v22h7c8 0 12-4 12-11s-4-11-12-11z" fill="#F0F0F0"/>
-</svg>
