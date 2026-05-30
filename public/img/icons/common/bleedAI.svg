@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Bleed-AI">
+  <rect width="80" height="80" fill="#111111"/>
+  <rect x="8" y="8" width="64" height="64" fill="none" stroke="#FF3D00" stroke-width="2"/>
+  <path d="M24 20h20c8 0 13 4 13 10 0 4-2 7-6 9 5 2 8 5 8 11 0 7-6 10-15 10H24zm10 8v8h9c3 0 5-1 5-4s-2-4-5-4zm0 16v8h10c3 0 5-1 5-4s-2-4-5-4z" fill="#F0F0F0"/>
+</svg>

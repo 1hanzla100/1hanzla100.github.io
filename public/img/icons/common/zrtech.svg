@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="ZRTechnologies">
+  <rect width="80" height="80" fill="#111111"/>
+  <rect x="8" y="8" width="64" height="64" fill="none" stroke="#FF3D00" stroke-width="2"/>
+  <path d="M20 22h40v8L35 50h25v8H20v-8l25-20H20z" fill="#F0F0F0"/>
+  <path d="M48 36h9l7 22H54z" fill="#FF3D00"/>
+</svg>
